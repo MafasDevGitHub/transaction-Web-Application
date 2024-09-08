@@ -1,0 +1,72 @@
+.title{
+  text-align: center;
+  font-family: 'MuseoModerno', sans-serif;
+  color: var(--text);
+}
+.header-diposit{
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 25px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.container{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85vh;
+  width: 100%;
+}
+.container .form-container{
+  width: 100%;
+  height: 100%;
+}
+.container .picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 15rem 11rem 8rem;
+}
+
+.container .picture img{
+  max-width: 100%;
+  height: 100%;
+}
+.form{
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+  padding:20px;
+  margin-left: 100px;
+ }
+.form label{
+    color: var(--main);
+ }
+.form input[type="text"] {
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 5px 5px;
+  color: var(--bg-colour);
+  width:500px;
+}
+.form input[type="text"][readonly] {
+  font-weight:lighter;
+}
+.form button {
+  width:150px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right:20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#diposit {
+  background-color:#007bff;
+}
+#clear{
+  background-color: #dc3545;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'MuseoModerno', sans-serif;
+  }
+  :root{
+  --main: #bcecfa;
+  --text: #4A8BDF;
+  --bg-colour:#25274D;
+  }
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--bg-colour);
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main);
+    width: 100%;
+    height: 12rem;
+    align-items: center;
+    box-shadow: 0 1px 4px 0 black;
+  }
+  .header .brand{
+    padding: 3rem;
+    font-size: 2rem;
+    color:var(--bg-colour)
+  }
+  .header .pages a:hover {
+    color: var(--text);
+  }
+  .pages
+  {
+    margin-inline-start: auto;
+    color:var(--bg-colour)
+  }
+  
+  .header .pages a{
+    padding: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color:var(--bg-colour);
+    font-weight:bold;
+  }

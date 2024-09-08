@@ -1,0 +1,60 @@
+.title{
+  text-align: center;
+  font-family: 'MuseoModerno', sans-serif;
+  color: var(--text);
+}
+.header-diposit{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:20px;
+}
+.container{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  position:absolute;
+  margin-top: 40px;
+  margin: 60px auto;
+  display: flex;
+  align-items: flex-start;
+  margin-block:inherit ;
+}
+form{
+  font-size: large;
+  font-weight: bold;;
+  display: inline-block;
+  padding:20px;
+  margin-left: 100px;
+}
+.form input[type="text"] {
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 5px 5px;
+  color: var(--text);
+  width:500px;
+}
+.form input[type="text"][readonly] {
+  font-weight:lighter;
+}
+.form button {
+  width:150px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right:20px;
+  border-radius: 5px;
+
+  font-size: 18px;
+}
+#diposit {
+  background-color:#007bff;
+}
+#clear{
+  background-color: #dc3545;
+}
+.container img{
+  width:55%; 
+  height:auto;
+  margin-left: 230px ;
+  margin-top: -170px;
+}
